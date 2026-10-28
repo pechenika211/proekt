@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400"><rect width="600" height="400" fill="#e3f4ec"/>
+<circle cx="300" cy="200" r="120" fill="none" stroke="#0f1733" stroke-width="3" stroke-dasharray="4 10"/>
+<g font-family="sans-serif" font-weight="700" text-anchor="middle">
+<circle cx="180" cy="200" r="58" fill="#fff"/><text x="180" y="212" font-size="32" fill="#0f1733">Сайт</text>
+<circle cx="420" cy="200" r="58" fill="#ff7a45"/><text x="420" y="214" font-size="38" fill="#fff">1С</text></g>
+<path d="M250 160q50-40 100 0" fill="none" stroke="#2f5bff" stroke-width="6" stroke-linecap="round"/><path d="M336 146l16 16-22 4" fill="none" stroke="#2f5bff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350 240q-50 40-100 0" fill="none" stroke="#2f5bff" stroke-width="6" stroke-linecap="round"/><path d="M264 254l-16-16 22-4" fill="none" stroke="#2f5bff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>

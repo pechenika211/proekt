@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" width="560" height="380"><rect width="560" height="380" rx="18" fill="#141b3d"/>
+<rect x="18" y="18" width="524" height="40" rx="8" fill="#1c2550"/><circle cx="40" cy="38" r="6" fill="#ff7a45"/><circle cx="60" cy="38" r="6" fill="#ffcf3a"/><circle cx="80" cy="38" r="6" fill="#3ccf8e"/>
+<text x="110" y="44" fill="#7f8bbd" font-family="monospace" font-size="15">helpdesk / проект #318</text>
+<g font-family="monospace">
+<rect x="18" y="74" width="170" height="90" rx="10" fill="#1c2550"/><text x="34" y="104" fill="#7f8bbd" font-size="13">задач в работе</text><text x="34" y="146" fill="#fff" font-size="34" font-weight="700">12</text>
+<rect x="196" y="74" width="170" height="90" rx="10" fill="#1c2550"/><text x="212" y="104" fill="#7f8bbd" font-size="13">ср. реакция</text><text x="212" y="146" fill="#ffcf3a" font-size="34" font-weight="700">38м</text>
+<rect x="374" y="74" width="168" height="90" rx="10" fill="#2f5bff"/><text x="390" y="104" fill="#dfe6ff" font-size="13">часов в месяце</text><text x="390" y="146" fill="#fff" font-size="34" font-weight="700">64/80</text></g>
+<rect x="18" y="176" width="524" height="186" rx="10" fill="#1c2550"/>
+<path d="M40 330 L100 300 L160 312 L220 260 L280 276 L340 220 L400 238 L460 196 L520 206" fill="none" stroke="#ffcf3a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M40 340 L100 326 L160 330 L220 300 L280 310 L340 284 L400 292 L460 262 L520 270" fill="none" stroke="#2f5bff" stroke-width="4" stroke-linejoin="round"/></svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400"><rect width="600" height="400" fill="#eef1fb"/>
+<rect x="24" y="24" width="552" height="352" rx="10" fill="#fff"/>
+<g stroke="#e3e7f3"><path d="M40 110H560"/><path d="M40 170H560"/><path d="M40 230H560"/><path d="M40 290H560"/></g>
+<path d="M40 300 L110 280 L180 292 L250 240 L320 250 L390 180 L460 196 L540 110 L540 330 L40 330z" fill="#2f5bff" opacity=".12"/>
+<path d="M40 300 L110 280 L180 292 L250 240 L320 250 L390 180 L460 196 L540 110" fill="none" stroke="#2f5bff" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="540" cy="110" r="9" fill="#ffcf3a" stroke="#0f1733" stroke-width="3"/>
+<g fill="#0f1733"><rect x="60" y="340" width="30" height="10" rx="3" opacity=".15"/><rect x="122" y="336" width="30" height="14" rx="3" opacity=".15"/><rect x="184" y="341" width="30" height="9" rx="3" opacity=".15"/><rect x="246" y="332" width="30" height="18" rx="3" opacity=".15"/><rect x="308" y="334" width="30" height="16" rx="3" opacity=".15"/><rect x="370" y="326" width="30" height="24" rx="3" opacity=".15"/><rect x="432" y="328" width="30" height="22" rx="3" opacity=".15"/><rect x="494" y="320" width="30" height="30" rx="3" opacity=".15"/></g>
+<rect x="44" y="44" width="150" height="40" rx="6" fill="#0f1733"/><text x="60" y="71" fill="#ffcf3a" font-family="monospace" font-size="20" font-weight="700">+38% ROI</text></svg>

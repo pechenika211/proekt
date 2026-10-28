@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DropFix — поддержка сайтов на Drupal</title>
+    <meta name="description" content="Поддерживаем, обновляем и ускоряем сайты на Drupal любых версий: от Drupal 6 до Drupal 11">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&amp;family=Manrope:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="hero" id="top">
+    <video class="hero__video" autoplay muted loop playsinline poster="img/hero-poster.jpg">
+        <source src="video/video.mp4" type="video/mp4">
+    </video>
+    <div class="hero__overlay"></div>
+
+    <div class="topbar">
+        <div class="container topbar__inner">
+            <a class="logo" href="#top" aria-label="DropFix — на главную">
+                <svg class="logo__drop" viewBox="0 0 24 30" aria-hidden="true"><path d="M12 1C8 8 2 13 2 19.5A10 10 0 0 0 22 19.5C22 13 16 8 12 1z"/><path class="logo__spark" d="M9 18l3-5v4h3l-3 5v-4z"/></svg>
+                <span>drop<b>fix</b></span>
+            </a>
+
+            <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav" id="main-nav" aria-label="Главное меню">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--active"><a class="nav__link" href="#top">Поддержка</a></li>
+                    <li class="nav__item nav__item--dropdown">
+                        <a class="nav__link nav__link--parent" href="#services">Услуги</a>
+                        <ul class="nav__sub">
+                            <li><a class="nav__sublink" href="#services">Обновление Drupal</a></li>
+                            <li><a class="nav__sublink" href="#services">Миграция на Drupal 11</a></li>
+                            <li><a class="nav__sublink" href="#services">Аудит безопасности</a></li>
+                            <li><a class="nav__sublink" href="#services">Ускорение сайта</a></li>
+                            <li><a class="nav__sublink" href="#services">Резервное копирование</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a class="nav__link" href="#tariffs">Тарифы</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#cases">Кейсы</a></li>
+                    <li class="nav__item nav__item--dropdown">
+                        <a class="nav__link nav__link--parent" href="#team">О студии</a>
+                        <ul class="nav__sub">
+                            <li><a class="nav__sublink" href="#team">Команда</a></li>
+                            <li><a class="nav__sublink" href="#process">Как мы работаем</a></li>
+                            <li><a class="nav__sublink" href="#reviews">Отзывы</a></li>
+                            <li><a class="nav__sublink" href="#faq">Вопросы и ответы</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a class="nav__link" href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container hero__body">
+        <div class="hero__intro">
+            <p class="eyebrow">Drupal 6 · 7 · 8 · 9 · 10 · 11</p>
+            <h1 class="hero__title">Чиним, обновляем и&nbsp;ускоряем сайты на&nbsp;Drupal</h1>
+            <p class="hero__text">Берём на поддержку сайты любой версии и любой запущенности. Отвечаем на заявку в&nbsp;течение часа, отчитываемся по каждой потраченной минуте.</p>
+            <div class="hero__actions">
+                <a class="btn btn--signal" href="#tariffs">Тарифы</a>
+                <a class="btn btn--line" href="#contact">Связь с нами</a>
+            </div>
+        </div>
+
+        <aside class="ticket" aria-label="Пример заявки из нашего helpdesk">
+            <div class="ticket__head">
+                <span class="ticket__id">Заявка #4127</span>
+                <span class="ticket__status">Выполнено</span>
+            </div>
+            <p class="ticket__title">Обновить ядро Drupal 7.98 → 10.3, сохранить все URL</p>
+            <dl class="ticket__meta">
+                <div><dt>Принята</dt><dd>09:12</dd></div>
+                <div><dt>Оценка</dt><dd>16 ч</dd></div>
+                <div><dt>Факт</dt><dd>14 ч 20 мин</dd></div>
+            </dl>
+            <ol class="ticket__log">
+                <li><span>09:47</span> Копия сайта развернута на тестовом сервере</li>
+                <li><span>13:05</span> Перенесено 2&nbsp;318 материалов, 0 ошибок</li>
+                <li><span>17:40</span> Выложено на рабочий сайт, ссылки проверены</li>
+            </ol>
+        </aside>
+    </div>
+
+    <div class="container">
+        <ul class="stats">
+            <li class="stats__item"><span class="stats__num">11 лет</span><span class="stats__text">работаем только с&nbsp;Drupal</span></li>
+            <li class="stats__item"><span class="stats__num">240+</span><span class="stats__text">сайтов на поддержке сейчас</span></li>
+            <li class="stats__item"><span class="stats__num">≤ 1 ч</span><span class="stats__text">время первого ответа на заявку</span></li>
+            <li class="stats__item"><span class="stats__num">68&nbsp;000</span><span class="stats__text">часов отработано по заявкам</span></li>
+        </ul>
+    </div>
+</header>
+
+<main>
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section__head">
+                <p class="eyebrow eyebrow--dark">Что мы делаем</p>
+                <h2 class="title">Любая работа с&nbsp;Drupal-сайтом, от правки текста до переезда на новую версию</h2>
+            </div>
+            <ul class="services__grid">
+                <li class="service">
+                    <svg class="service__icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="8" width="36" height="28" rx="3"/><path d="M6 16h36M14 42h20M24 36v6M14 24h12M14 29h8"/></svg>
+                    <h3 class="service__title">Контент и разделы</h3>
+                    <p>Добавляем страницы, каталоги, формы и новые разделы без поломок в&nbsp;вёрстке.</p>
+                </li>
+                <li class="service">
+                    <svg class="service__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M17 14 7 24l10 10M31 14l10 10-10 10M27 9l-6 30"/></svg>
+                    <h3 class="service__title">Свои модули</h3>
+                    <p>Пишем и дорабатываем модули, когда готового решения на drupal.org нет.</p>
+                </li>
+                <li class="service">
+                    <svg class="service__icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="12" cy="24" r="6"/><circle cx="36" cy="12" r="6"/><circle cx="36" cy="36" r="6"/><path d="M17.5 21.5 30.5 14.5M17.5 26.5 30.5 33.5"/></svg>
+                    <h3 class="service__title">Интеграции</h3>
+                    <p>Связываем сайт с 1С, МойСклад, amoCRM, платёжными системами и&nbsp;API.</p>
+                </li>
+                <li class="service">
+                    <svg class="service__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 5 8 11v12c0 10 7 17 16 20 9-3 16-10 16-20V11z"/><path d="m17 24 5 5 9-10"/></svg>
+                    <h3 class="service__title">Безопасность</h3>
+                    <p>Ставим обновления безопасности в день выхода, ищем и закрываем уязвимости.</p>
+                </li>
+                <li class="service">
+                    <svg class="service__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 34a16 16 0 1 1 32 0"/><path d="m24 34 9-11"/><circle cx="24" cy="34" r="2.5"/></svg>
+                    <h3 class="service__title">Ускорение</h3>
+                    <p>Настраиваем кэш, чистим запросы к базе, сжимаем картинки. Цель: загрузка до&nbsp;1&nbsp;секунды.</p>
+                </li>
+                <li class="service">
+                    <svg class="service__icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="5" y="14" width="14" height="20" rx="2"/><rect x="29" y="14" width="14" height="20" rx="2"/><path d="M21 24h6M24 21l3 3-3 3"/></svg>
+                    <h3 class="service__title">Миграция</h3>
+                    <p>Переносим сайты с Drupal 6 и 7 на Drupal 11 с сохранением адресов и позиций в поиске.</p>
+                </li>
+                <li class="service">
+                    <svg class="service__icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="12" rx="15" ry="5"/><path d="M9 12v12c0 3 7 5 15 5s15-2 15-5V12M9 24v12c0 3 7 5 15 5s15-2 15-5V24"/></svg>
+                    <h3 class="service__title">Резервные копии</h3>
+                    <p>Ежедневные копии файлов и базы на отдельном сервере, хранение 30&nbsp;дней.</p>
+                </li>
+                <li class="service">
+                    <svg class="service__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M7 38h34M12 32V22M20 32V14M28 32V18M36 32V8"/></svg>
+                    <h3 class="service__title">SEO и аналитика</h3>
+                    <p>Настраиваем Метрику и цели, правим технические ошибки, которые мешают поиску.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section process" id="process">
+        <div class="container">
+            <div class="section__head">
+                <p class="eyebrow eyebrow--dark">Как мы работаем</p>
+                <h2 class="title">Путь заявки от письма до&nbsp;отчёта</h2>
+            </div>
+            <ol class="steps">
+                <li class="step">
+                    <span class="step__time">0–60 мин</span>
+                    <h3 class="step__title">Вы пишете на почту или в&nbsp;Telegram</h3>
+                    <p>Заявка сразу попадает в helpdesk и не теряется в переписке.</p>
+                </li>
+                <li class="step">
+                    <span class="step__time">до 4 ч</span>
+                    <h3 class="step__title">Оцениваем объём работ</h3>
+                    <p>Называем срок и количество часов. Начинаем только после вашего «да».</p>
+                </li>
+                <li class="step">
+                    <span class="step__time">по оценке</span>
+                    <h3 class="step__title">Делаем на тестовой копии</h3>
+                    <p>Рабочий сайт не трогаем, пока изменения не проверены.</p>
+                </li>
+                <li class="step">
+                    <span class="step__time">в тот же день</span>
+                    <h3 class="step__title">Выкладываем и отчитываемся</h3>
+                    <p>В личном кабинете видно, что сделано и сколько минут ушло.</p>
+                </li>
+            </ol>
+            <ul class="perks">
+                <li>Персональный менеджер проекта</li>
+                <li>Работаем по договору, SLA и NDA</li>
+                <li>Только штатные разработчики</li>
+                <li>Оплата по счёту или картой</li>
+                <li>Поддержка с 7:00 до 23:00 без выходных</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="expertise" id="expertise">
+        <div class="container expertise__inner">
+            <div class="expertise__art">
+                <img src="img/dashboard.svg" alt="Личный кабинет клиента: задачи в работе, время реакции и часы за месяц" width="560" height="380" loading="lazy">
+            </div>
+            <div class="expertise__content">
+                <p class="eyebrow">Почему Drupal и только он</p>
+                <h2 class="title title--light">Одиннадцать лет знаем Drupal изнутри</h2>
+                <ul class="expertise__list">
+                    <li><b>Git, тестовый сервер, бэкапы.</b> Каждое изменение можно откатить за минуту.</li>
+                    <li><b>Не берём другие CMS.</b> Вся команда пишет только под Drupal и знает его типичные поломки.</li>
+                    <li><b>Отдаём сообществу.</b> Публикуем свои модули и патчи на <a href="https://www.drupal.org/">drupal.org</a>.</li>
+                    <li><b>Старые версии не пугают.</b> Поддерживаем сайты на Drupal 6 и 7, пока вы готовитесь к переезду.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section tariffs" id="tariffs">
+        <div class="container">
+            <div class="section__head section__head--center">
+                <p class="eyebrow eyebrow--dark">Тарифы</p>
+                <h2 class="title">Пакет часов на месяц</h2>
+            </div>
+            <div class="tariffs__grid">
+                <article class="tariff">
+                    <h3 class="tariff__name">Старт</h3>
+                    <p class="tariff__price"><span>от</span> 8&nbsp;000 ₽<small>/мес</small></p>
+                    <p class="tariff__hours">5 часов работы</p>
+                    <ul class="tariff__list">
+                        <li>Ответ на заявку в течение рабочего дня</li>
+                        <li>Обновления безопасности</li>
+                        <li>Неиспользованные часы переносятся на&nbsp;следующий месяц</li>
+                    </ul>
+                    <a class="btn btn--outline" href="#contact">Выбрать тариф</a>
+                </article>
+                <article class="tariff tariff--featured">
+                    <p class="tariff__badge">Чаще всего выбирают</p>
+                    <h3 class="tariff__name">Бизнес</h3>
+                    <p class="tariff__price"><span>от</span> 36&nbsp;000 ₽<small>/мес</small></p>
+                    <p class="tariff__hours">20 часов работы</p>
+                    <ul class="tariff__list">
+                        <li>Ответ на заявку в течение часа</li>
+                        <li>Персональный менеджер</li>
+                        <li>Услуги дизайнера и SEO-специалиста</li>
+                        <li>Ежедневные резервные копии</li>
+                    </ul>
+                    <a class="btn btn--signal" href="#contact">Выбрать тариф</a>
+                </article>
+                <article class="tariff">
+                    <h3 class="tariff__name">Премиум</h3>
+                    <p class="tariff__price"><span>от</span> 150&nbsp;000 ₽<small>/мес</small></p>
+                    <p class="tariff__hours">80 часов работы</p>
+                    <ul class="tariff__list">
+                        <li>Ответ за 15 минут, 7 дней в неделю</li>
+                        <li>Выделенный разработчик</li>
+                        <li>Мониторинг сайта круглосуточно</li>
+                        <li>Работа по SLA</li>
+                    </ul>
+                    <a class="btn btn--outline" href="#contact">Выбрать тариф</a>
+                </article>
+            </div>
+            <p class="tariffs__note">Нужен другой объём часов? <a href="#contact">Соберём индивидуальный тариф</a></p>
+        </div>
+    </section>
+
+    <section class="section tasks" id="tasks">
+        <div class="container">
+            <div class="section__head">
+                <p class="eyebrow eyebrow--dark">Сроки</p>
+                <h2 class="title">Сколько занимают типичные задачи</h2>
+            </div>
+            <ul class="tasks__list">
+                <li class="task"><span class="task__time">от 1 ч</span><span class="task__text">Настроить цель в Яндекс.Метрике на отправку формы</span></li>
+                <li class="task"><span class="task__time">от 3 ч</span><span class="task__text">Поставить обновление безопасности ядра и модулей</span></li>
+                <li class="task"><span class="task__time">от 8 ч</span><span class="task__text">Подключить онлайн-оплату к интернет-магазину</span></li>
+                <li class="task"><span class="task__time">от 20 ч</span><span class="task__text">Сделать мобильную версию существующего сайта</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section team" id="team">
+        <div class="container">
+            <div class="section__head section__head--center">
+                <p class="eyebrow eyebrow--dark">Команда</p>
+                <h2 class="title">Люди, которые отвечают на ваши заявки</h2>
+            </div>
+            <ul class="team__grid">
+                <li class="member"><img src="img/team-1.jpg" alt="" width="240" height="240" loading="lazy"><h3 class="member__name">Олег Ветров</h3><p class="member__role">Технический директор, 14 лет с&nbsp;Drupal</p></li>
+                <li class="member"><img src="img/team-2.jpg" alt="" width="240" height="240" loading="lazy"><h3 class="member__name">Артём Лукин</h3><p class="member__role">Ведущий бэкенд-разработчик</p></li>
+                <li class="member"><img src="img/team-3.jpg" alt="" width="240" height="240" loading="lazy"><h3 class="member__name">Никита Седов</h3><p class="member__role">DevOps, серверы и резервные копии</p></li>
+                <li class="member"><img src="img/team-4.jpg" alt="" width="240" height="240" loading="lazy"><h3 class="member__name">Анна Карпова</h3><p class="member__role">Руководитель отдела поддержки</p></li>
+                <li class="member"><img src="img/team-5.jpg" alt="" width="240" height="240" loading="lazy"><h3 class="member__name">Мария Орлова</h3><p class="member__role">Фронтенд-разработчик</p></li>
+                <li class="member"><img src="img/team-6.jpg" alt="" width="240" height="240" loading="lazy"><h3 class="member__name">Елена Гусева</h3><p class="member__role">Менеджер по работе с&nbsp;клиентами</p></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section cases" id="cases">
+        <div class="container">
+            <div class="section__head">
+                <p class="eyebrow eyebrow--dark">Кейсы</p>
+                <h2 class="title">Последние проекты</h2>
+            </div>
+            <div class="cases__grid">
+                <article class="case case--wide">
+                    <img src="img/case-speed.svg" alt="Спидометр: время загрузки сократилось с 12 до 0,4 секунды" width="600" height="400" loading="lazy">
+                    <div class="case__body">
+                        <time class="case__date" datetime="2026-09-14">14.09.2026</time>
+                        <h3 class="case__title">Магазин стройматериалов: загрузка каталога с&nbsp;12&nbsp;до&nbsp;0,4&nbsp;секунды</h3>
+                        <p class="case__text">Перевели кэш на Redis, переписали тяжёлые Views, включили отложенную загрузку картинок.</p>
+                    </div>
+                </article>
+                <article class="case">
+                    <img src="img/case-migrate.svg" alt="Схема переноса сайта с Drupal 7 на Drupal 10" width="600" height="400" loading="lazy">
+                    <div class="case__body">
+                        <time class="case__date" datetime="2026-07-02">02.07.2026</time>
+                        <h3 class="case__title">Новостной портал переехал с&nbsp;Drupal 7 на&nbsp;Drupal 10</h3>
+                    </div>
+                </article>
+                <article class="case">
+                    <img src="img/case-ab.svg" alt="Сравнение двух вариантов страницы, вариант B лучше на 27%" width="600" height="400" loading="lazy">
+                    <div class="case__body">
+                        <time class="case__date" datetime="2026-05-19">19.05.2026</time>
+                        <h3 class="case__title">A/B-тест формы заявки: +27% к&nbsp;конверсии</h3>
+                    </div>
+                </article>
+                <article class="case">
+                    <img src="img/case-sync.svg" alt="Схема обмена данными между сайтом и 1С" width="600" height="400" loading="lazy">
+                    <div class="case__body">
+                        <time class="case__date" datetime="2026-03-30">30.03.2026</time>
+                        <h3 class="case__title">Обмен товарами и заказами с&nbsp;1С каждые 5&nbsp;минут</h3>
+                    </div>
+                </article>
+                <article class="case">
+                    <img src="img/case-metrics.svg" alt="График роста дохода с рекламы" width="600" height="400" loading="lazy">
+                    <div class="case__body">
+                        <time class="case__date" datetime="2026-02-11">11.02.2026</time>
+                        <h3 class="case__title">Электронная торговля в&nbsp;Метрике: видно, какая реклама окупается</h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section reviews" id="reviews">
+        <div class="container">
+            <div class="section__head section__head--center">
+                <p class="eyebrow eyebrow--dark">Отзывы</p>
+                <h2 class="title">Что говорят клиенты</h2>
+            </div>
+            <div class="slider" data-slider>
+                <div class="slider__viewport">
+                    <div class="slider__track">
+                        <figure class="review">
+                            <blockquote class="review__text"><p>Сайт достался нам от подрядчика, который пропал. Ребята за неделю разобрались в чужом коде, закрыли дыры в безопасности и обновили ядро. Теперь задачи ставим письмом, а к вечеру получаем отчёт.</p></blockquote>
+                            <figcaption class="review__author"><b>Ирина Савельева</b><span>маркетолог, «Лесная мануфактура»</span></figcaption>
+                        </figure>
+                        <figure class="review">
+                            <blockquote class="review__text"><p>Каталог открывался по восемь секунд, и покупатели уходили. После оптимизации страница грузится почти мгновенно, а заказов с мобильных стало заметно больше.</p></blockquote>
+                            <figcaption class="review__author"><b>Денис Колесов</b><span>владелец магазина «СтройДвор»</span></figcaption>
+                        </figure>
+                        <figure class="review">
+                            <blockquote class="review__text"><p>Переезд на новую версию Drupal боялись откладывать дальше. Всё сделали на тестовом сервере, перенесли тысячи статей и сохранили адреса. Редакция даже не заметила день переключения.</p></blockquote>
+                            <figcaption class="review__author"><b>Павел Ермаков</b><span>технический директор портала «Город 24»</span></figcaption>
+                        </figure>
+                        <figure class="review">
+                            <blockquote class="review__text"><p>Понравилась прозрачность: в кабинете видно каждую заявку и сколько минут на неё ушло. Ни разу не было ощущения, что платим за воздух.</p></blockquote>
+                            <figcaption class="review__author"><b>Ольга Миронова</b><span>руководитель онлайн-школы «Азбука кода»</span></figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="slider__controls">
+                    <button class="slider__btn slider__btn--prev" type="button" aria-label="Предыдущий отзыв"></button>
+                    <p class="slider__counter"><span class="slider__current">01</span><span class="slider__total"> / 04</span></p>
+                    <button class="slider__btn slider__btn--next" type="button" aria-label="Следующий отзыв"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section partners" id="partners">
+        <div class="container">
+            <div class="section__head section__head--center">
+                <p class="eyebrow eyebrow--dark">Клиенты</p>
+                <h2 class="title">С нами работают</h2>
+            </div>
+        </div>
+        <div class="marquee">
+            <div class="marquee__row">
+                <ul class="marquee__track">
+                    <li class="brand brand--serif">Лесная мануфактура</li>
+                    <li class="brand brand--bold">СТРОЙДВОР</li>
+                    <li class="brand brand--mono">город_24</li>
+                    <li class="brand brand--round">азбука кода</li>
+                    <li class="brand brand--wide">NORDLINE</li>
+                    <li class="brand brand--serif">Музей ремёсел</li>
+                    <li class="brand brand--bold">Тепло+</li>
+                    <li class="brand brand--mono">vetclinic.pro</li>
+                </ul>
+                <ul class="marquee__track" aria-hidden="true">
+                    <li class="brand brand--serif">Лесная мануфактура</li>
+                    <li class="brand brand--bold">СТРОЙДВОР</li>
+                    <li class="brand brand--mono">город_24</li>
+                    <li class="brand brand--round">азбука кода</li>
+                    <li class="brand brand--wide">NORDLINE</li>
+                    <li class="brand brand--serif">Музей ремёсел</li>
+                    <li class="brand brand--bold">Тепло+</li>
+                    <li class="brand brand--mono">vetclinic.pro</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section faq" id="faq">
+        <div class="container faq__inner">
+            <div class="section__head">
+                <p class="eyebrow eyebrow--dark">Вопросы и ответы</p>
+                <h2 class="title">Частые вопросы</h2>
+                <p class="faq__hint">Не нашли ответ? Напишите нам, отвечаем в&nbsp;течение часа.</p>
+            </div>
+            <ol class="faq__list">
+                <li class="faq__item is-open">
+                    <h3 class="faq__q"><button class="faq__btn" type="button" aria-expanded="true">Кто будет заниматься моим сайтом?</button></h3>
+                    <div class="faq__a"><p>Штатные разработчики студии, у каждого не меньше трёх лет опыта с Drupal. За проектом закрепляется ведущий разработчик и менеджер.</p></div>
+                </li>
+                <li class="faq__item">
+                    <h3 class="faq__q"><button class="faq__btn" type="button" aria-expanded="false">Как поставить задачу?</button></h3>
+                    <div class="faq__a"><p>Напишите на почту или в Telegram. Заявка автоматически попадёт в helpdesk, а менеджер пришлёт оценку по срокам и часам.</p></div>
+                </li>
+                <li class="faq__item">
+                    <h3 class="faq__q"><button class="faq__btn" type="button" aria-expanded="false">Что будет, если часы закончатся раньше конца месяца?</button></h3>
+                    <div class="faq__a"><p>Менеджер предупредит заранее. Дополнительные часы оплачиваются по ставке вашего тарифа и только после согласования.</p></div>
+                </li>
+                <li class="faq__item">
+                    <h3 class="faq__q"><button class="faq__btn" type="button" aria-expanded="false">А если часы останутся?</button></h3>
+                    <div class="faq__a"><p>На тарифе «Старт» они переносятся на следующий месяц. На «Бизнесе» и «Премиуме» часы не переносятся, зато гарантировано время ответа.</p></div>
+                </li>
+                <li class="faq__item">
+                    <h3 class="faq__q"><button class="faq__btn" type="button" aria-expanded="false">Вы возьмёте сайт на старом Drupal 6 или 7?</button></h3>
+                    <div class="faq__a"><p>Да. Поддерживаем такие сайты, закрываем уязвимости и параллельно готовим план переезда на актуальную версию.</p></div>
+                </li>
+                <li class="faq__item">
+                    <h3 class="faq__q"><button class="faq__btn" type="button" aria-expanded="false">Как быстро вы начнёте работу?</button></h3>
+                    <div class="faq__a"><p>Первый ответ на заявку приходит в течение часа в рабочее время. Аудит нового сайта перед стартом поддержки занимает 1–2 дня.</p></div>
+                </li>
+                <li class="faq__item">
+                    <h3 class="faq__q"><button class="faq__btn" type="button" aria-expanded="false">Можно созвониться с разработчиком?</button></h3>
+                    <div class="faq__a"><p>Можно. Созвоны в Zoom или Telegram согласуем через менеджера, время звонка входит в пакет часов.</p></div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container contact__inner">
+            <div class="contact__info">
+                <p class="eyebrow">Заявка</p>
+                <h2 class="title title--light">Расскажите, что случилось с сайтом</h2>
+                <p class="contact__text">Сайт упал, предыдущий подрядчик пропал или просто нужен человек, который отвечает за Drupal? Оставьте заявку, и менеджер перезвонит в течение часа.</p>
+                <ul class="contact__list">
+                    <li><span class="contact__label">Телефон</span><a href="tel:+79186579854">+7 (918) 657-98-54</a></li>
+                    <li><span class="contact__label">Почта</span><a href="mailto:drupal@gmail.com">drupal@gmail.com</a></li>
+                    <li><span class="contact__label">Часы</span>ежедневно, 7:00–23:00 мск</li>
+                </ul>
+            </div>
+
+            <form class="form" id="contact-form" action="https://formcarry.com/s/BDutpn4fT4g" method="post" novalidate>
+                <div class="form__group">
+                    <label class="form__label" for="f-name">Как вас зовут</label>
+                    <input class="form__field" id="f-name" name="name" type="text" placeholder="Анна" autocomplete="name" required>
+                </div>
+                <div class="form__row">
+                    <div class="form__group">
+                        <label class="form__label" for="f-phone">Телефон</label>
+                        <input class="form__field" id="f-phone" name="phone" type="tel" placeholder="+7 900 000-00-00" autocomplete="tel" required>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label" for="f-email">E-mail</label>
+                        <input class="form__field" id="f-email" name="email" type="email" placeholder="anna@company.ru" autocomplete="email" required>
+                    </div>
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="f-comment">Что нужно сделать</label>
+                    <textarea class="form__field form__field--area" id="f-comment" name="comment" placeholder="Адрес сайта и коротко о задаче" rows="4"></textarea>
+                </div>
+
+                <div class="form__check">
+                    <input class="form__checkbox" id="f-agree" name="agree" type="checkbox" value="yes" required>
+                    <label for="f-agree">Согласен на обработку персональных данных</label>
+                </div>
+
+                <button class="btn btn--signal form__submit" type="submit">Отправить заявку</button>
+                <p class="form__status" role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <a class="logo" href="#top" aria-label="DropFix — наверх">
+            <svg class="logo__drop" viewBox="0 0 24 30" aria-hidden="true"><path d="M12 1C8 8 2 13 2 19.5A10 10 0 0 0 22 19.5C22 13 16 8 12 1z"/><path class="logo__spark" d="M9 18l3-5v4h3l-3 5v-4z"/></svg>
+            <span>drop<b>fix</b></span>
+        </a>
+        <ul class="socials">
+            <li><a class="socials__link" href="https://kubsu.ru" aria-label="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.7 4.3 3.4 11c-1.2.5-1.2 1.2 0 1.5l4.4 1.4 1.7 5.2c.2.6.4.8.8.8s.6-.2.9-.5l2.2-2.1 4.5 3.3c.8.5 1.4.2 1.6-.8l2.9-13.6c.3-1.2-.4-1.7-1.3-1.3zM9 13.6l9.4-5.9c.4-.3.8-.1.5.2l-7.8 7.1-.3 3.2z"/></svg></a></li>
+            <li><a class="socials__link" href="https://kubsu.ru" aria-label="ВКонтакте"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.8 17c-5.5 0-8.6-3.8-8.8-10h2.8c.1 4.6 2.1 6.5 3.7 6.9V7h2.6v3.9c1.6-.2 3.3-2 3.8-3.9h2.6c-.4 2.4-2.2 4.2-3.4 4.9 1.3.6 3.3 2.1 4.1 5.1h-2.9c-.6-1.9-2.1-3.4-4.2-3.6V17z"/></svg></a></li>
+            <li><a class="socials__link" href="https://kubsu.ru" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 2.9.8.1-.6.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.5 9.5 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.3 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg></a></li>
+        </ul>
+        <p class="footer__text">Белоусов Владислав</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
