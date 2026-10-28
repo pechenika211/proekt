@@ -420,28 +420,43 @@ blockquote {
 }
 
 .burger {
+    position: relative;
     width: 44px;
     height: 44px;
-    padding: 13px 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 0;
     border: 0;
     border-radius: 10px;
     background: rgba(255, 255, 255, .08);
     cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .burger span {
-    display: block;
+    position: absolute;
+    left: 11px;
+    width: 22px;
     height: 2px;
     background: var(--white);
     border-radius: 2px;
-    transition: transform .3s, opacity .3s;
+    transition: transform .3s, opacity .3s, top .3s;
+}
+
+.burger span:nth-child(1) {
+    top: 14px;
+}
+
+.burger span:nth-child(2) {
+    top: 21px;
+}
+
+.burger span:nth-child(3) {
+    top: 28px;
 }
 
 .burger[aria-expanded="true"] span:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    top: 21px;
+    transform: rotate(45deg);
 }
 
 .burger[aria-expanded="true"] span:nth-child(2) {
@@ -449,9 +464,9 @@ blockquote {
 }
 
 .burger[aria-expanded="true"] span:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    top: 21px;
+    transform: rotate(-45deg);
 }
-
 /* Мобильное меню: выезжает сверху вниз (CSS-transition) */
 .nav {
     position: fixed;
